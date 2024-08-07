@@ -18,4 +18,4 @@ app.include_router(images.router, tags=["images"])
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Hola Mundo"}
